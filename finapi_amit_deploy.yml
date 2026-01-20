@@ -18,7 +18,7 @@ variables:
   - name: targetFile
     value: 'app.py'                               # Optional: Which file inside artifact to display
   - name: resourceGroup
-    value: 'training-Student-011-OC012-Lab01'          # <-- Update this
+    value: 'Training-Student-011-OC012'          # <-- Update this
   - name: webAppName
     value: 'finapi-amit'                  # <-- Update this Azure Web App target
 
