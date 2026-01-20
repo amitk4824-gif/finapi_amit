@@ -12,7 +12,7 @@ variables:
   - name: projectName
     value: 'Training-Student-011-OC012'              # <-- Update this
   - name: buildPipelineName
-    value: 'finapi_amitk_build'       # <-- Update this
+    value: 'finapi_amit_build'       # <-- Update this
   - name: artifactName
     value: 'api'
   - name: targetFile
