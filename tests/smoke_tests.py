@@ -12,7 +12,7 @@ def test_retrieve_price():
     assert r.status_code == 200
     data = r.json()
     assert data["symbol"] == "AAPL"
-# AMIT
+
 def test_client_valuation():
     r = requests.get(f"{BASE_URL}/api/client-valuation", timeout=5)
     assert r.status_code == 200
