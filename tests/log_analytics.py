@@ -30,7 +30,7 @@ def send_log_to_loganalytics(log_type, log_data):
         'x-ms-date': timestamp,
         'Authorization': f'SharedKey {workspace_id}:{encoded_hash}'
     }
-
+#AMIT
     print(f"Sending to Log Analytics: {len(log_data)} entries")
     print(f"POST {uri}")
 
